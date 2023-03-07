@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./css/stylesheet.css">
   </head>
   <body>
-    <h1> Survey page 1 </h1>
+    <h1> Survey Page 1 - Contact</h1>
     <h2> Required Fields!</h2>
     <form>
         <fieldset>
@@ -32,14 +32,15 @@
             </div>
             <div> 
                 <label for="number"> Phone Number:
-                    <input id="number" type="text" >
+                    <input id="number" type="text" required >
                 </label>
             </div>
         </fieldset>
         <fieldset> 
             <legend> Identification Questions </legend>
             <div>
-            <label for="female"> How do you identify?
+            <label for="female"> How do you identify? </label>
+            <label for="female" >
                 <input type="radio" id="female" name="gender" value="female"> Female 
             </label>
             
@@ -57,7 +58,7 @@
         <div>
             <label for="state">What is your student profile?</label>
 
-                <select name="state" id="state" required>
+                <select name="state" id="state" >
                 <option value="">Please select a response...</option>
                 <option value="in">In-State</option>
                 <option value="out">Out-of-State</option>
