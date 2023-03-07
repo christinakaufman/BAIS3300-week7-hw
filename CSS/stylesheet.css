@@ -1,7 +1,26 @@
 body {
-  background-color: #fce6f9;
+  background-color: #b9d0f4;
 }
 
 input[readonly] {
   background-color: #dcdcdc;
+}
+
+label {
+  display: block;
+  margin-top: 1em;
+}
+
+.req {
+  color: #e57a77;
+}
+
+*:required {
+  background-color: #eebab4;
+}
+
+h2 {
+  background-color: #eebab4;
+  border: #eebab4;
+  border-radius: 2px;
 }
