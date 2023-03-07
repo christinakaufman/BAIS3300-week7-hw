@@ -32,15 +32,28 @@
                 </label>
             </div>
             <div>
-                <label for="gender">Gender:</label>
-    
-                    <select name="genders" id="gender">
-                    <option value="female">Female</option>
-                    <option value="male">Male</option>
-                    <option value="other">Other</option>
-                    <option value="nothanks">Prefer not to respond</option>
-                    </select>
-            </div>
+            <label for="female"> How do you identify?
+                <input type="radio" id="female" name="gender" value="female"> Female 
+            </label>
+            
+            <label for="male">
+                <input type="radio" id="male" name="gender" value="male"> Male
+            </label>
+            
+            <label for="non-binary">
+            <input type="radio" id="non-binary" name="gender" value="non-binary">Non-binary
+            </label>  
+        </div>
+        <div>
+            <label for="state">In-State or Out-of-State Student?</label>
+
+                <select name="state" id="state">
+                <option value="in">In-State</option>
+                <option value="out">Out-of-State</option>
+                <option value="other">Other</option>
+                <option value="nothanks">Prefer not to respond</option>
+                </select>
+        </div>
         </fieldset>
     </form>
 
