@@ -9,6 +9,38 @@
   </head>
   <body>
     <h1> Survey page 2 </h1>
+
+    <form>
+      <fieldset>
+          <legend> Student Life Questionnaire </legend>
+          <div>
+            <label for="year">What year are you?</label>
+  
+                <select name="years" id="year">
+                <option value="one">First Year</option>
+                <option value="second">Second Year</option>
+                <option value="third">Third Year</option>
+                <option value="fourth">Fourth Year</option>
+                <option value="other">Other</option>
+                </select>
+        </div>
+          
+          <div> 
+              <label for="q1"> What word best describes your college experience?
+                  <input id="q1" type="text" autofocus>
+
+              </label>
+          </div>
+          <div>
+              <label for="q2"> Last name:
+                  <input id="q2" type="text">
+
+              </label>
+          </div>
+      
+      </fieldset>
+
+  </form>
         <button onclick="window.location.href='./thank-you.html';".>
         Submit survey
     </button>
