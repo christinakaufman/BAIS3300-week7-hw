@@ -31,6 +31,14 @@
 
                 </label>
             </div>
+            <div> 
+                <label for="number"> Phone Number:
+                    <input id="number" type="text" autofocus>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset> 
+            <legend> Identification Questions </legend>
             <div>
             <label for="female"> How do you identify?
                 <input type="radio" id="female" name="gender" value="female"> Female 
@@ -43,15 +51,18 @@
             <label for="non-binary">
             <input type="radio" id="non-binary" name="gender" value="non-binary">Non-binary
             </label>  
+            <label for="other">
+                <input type="radio" id="other" name="gender" value="other">Other
+                </label>  
         </div>
         <div>
-            <label for="state">In-State or Out-of-State Student?</label>
+            <label for="state">What is your student profile?</label>
 
                 <select name="state" id="state">
                 <option value="in">In-State</option>
                 <option value="out">Out-of-State</option>
-                <option value="other">Other</option>
-                <option value="nothanks">Prefer not to respond</option>
+                <option value="other">International Student</option>
+                <option value="nothanks">Other</option>
                 </select>
         </div>
         </fieldset>
