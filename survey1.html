@@ -15,18 +15,18 @@
             <legend> Contact Information </legend>
             <div> 
                 <label for="fname"> First name:
-                    <input id="fname" type="text" autofocus>
+                    <input id="fname" type="text" autofocus required>
                 </label>
             </div>
             <div>
                 <label for="lname"> Last name:
-                    <input  id="lname" type="text">
+                    <input  id="lname" type="text" required>
 
                 </label>
             </div>
             <div>
                 <label for="email"> Email address:
-                    <input id="email" type="email" >
+                    <input id="email" type="email" required  >
 
                 </label>
             </div>
@@ -57,7 +57,8 @@
         <div>
             <label for="state">What is your student profile?</label>
 
-                <select name="state" id="state">
+                <select name="state" id="state" required>
+                <option value="">Please select a response...</option>
                 <option value="in">In-State</option>
                 <option value="out">Out-of-State</option>
                 <option value="other">International Student</option>
